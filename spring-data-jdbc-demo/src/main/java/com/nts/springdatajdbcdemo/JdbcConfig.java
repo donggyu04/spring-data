@@ -17,6 +17,7 @@ public class JdbcConfig {
         return new EmbeddedDatabaseBuilder()
                 .setType(EmbeddedDatabaseType.HSQL)
                 .addScripts("create-pet-schema.sql", "create-customer-schema.sql", "create-movie-schema.sql")
+                .addScripts("create-book-author-schema.sql")
                 .build();
     }
 }
