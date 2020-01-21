@@ -36,6 +36,8 @@ class PetRepositoryTest {
         System.out.println(pet1.hashCode());
 
         System.out.println("============test 4==================");
+        pet.setId(null);
+        petRepository.save(pet);
         assertThat(petRepository.count()).isEqualTo(2);
     }
 }
