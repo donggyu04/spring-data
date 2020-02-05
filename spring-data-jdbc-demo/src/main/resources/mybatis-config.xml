@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://www.mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <typeAliases>
+        <package name="com.nts.springdatajdbcdemo.mybatis"/>
+    </typeAliases>
+    <mappers>
+        <mapper resource="mapper/Model.xml"/>
+        <mapper resource="mapper/LegoSet.xml"/>
+    </mappers>
+</configuration>
