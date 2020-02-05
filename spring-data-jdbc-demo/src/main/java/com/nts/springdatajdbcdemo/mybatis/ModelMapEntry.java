@@ -12,7 +12,6 @@ public class ModelMapEntry implements Map.Entry<String, Model> {
     private final Model value;
 
     ModelMapEntry(String name, Clob description) {
-
         key = name;
         value = new Model();
         value.name = name;
