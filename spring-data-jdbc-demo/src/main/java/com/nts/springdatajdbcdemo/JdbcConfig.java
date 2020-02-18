@@ -24,6 +24,7 @@ public class JdbcConfig {
                 .addScripts("create-stringy-big-decimal.sql")
                 .addScripts("create-employee-schema.sql")
                 .addScripts("create-mybatis-schema.sql")
+                .addScripts("create-document-schema.sql")
                 .build();
     }
 }
